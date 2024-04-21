@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Amazon clone </title>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+<!-- creating navbar -->
+
+<div class="Navbar">
+<div class="navlogo border">
+
+    <!-- for amazon logo -->
+    <!-- box1 navbar -->
+
+<div class="logo"></div>
+</div>
+
+<!-- for deliver to,india,location icon -->
+<!-- box2 navbar -->
+
+<div class="address border">
+    <p id="deliver">Deliver to</p>
+<div class="logoindia">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="india">India</p>
+ </div>
+</div>
+
+<!-- creating search drops,search bar,search button -->
+<!-- box3 navbar -->
+
+<div id="search">
+<select id="all">
+    <option>All</option>
+</select>
+<input type="text" placeholder="Search Amazon" id="searchamazon">
+<div class="searchbutton">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+</div>
+
+<!-- creating en and flag icon -->
+<!-- box4 navbar -->
+
+<div class="flagen border">
+    <div id="jointbox">
+    <div class="launguage">
+    <img src="engg.png" class="langpic"height="15px" >
+  
+</div>
+<p id="enwritten"><b>EN</b></p>
+<!-- <div class="languagechoose">
+    </div> -->
+    <select id="en">
+    <option value="lang1">EN-English</option>
+    <option value="lang2">español-ES</option>
+    <option value="lang3">العربية - AR</option>
+    <option value="lang4">Deutsch - DE</option>
+    <option value="lang5">한국어 - KO</option>
+    <option value="lang6">português - PT</option>
+    <option value="lang7">中文 (简体) - ZH</option>
+    <option value="lang8">中文 (繁體) - ZH</option>
+    </select>
+</div>
+</div>
+
+<!-- creating hello sign accout and list -->
+<!-- box5 navbar -->
+
+<div class="hellotocart ">
+
+<div class="hellotoreturn border">
+    <p><span> Hello,sign in</p></span>
+    <p class="listsorders"><b>Account & Lists</b></p>
+    <select id="option">
+        <option></option>
+    </select>
+</div>
+</div>
+<div class="hellotoreturn border">
+    <p><span>Returns</p></span>
+    <p class="listsorders"><b>& Orders</b></p>
+</div>
+
+<!-- creating cart logo and cart written
+box6 -->
+
+<div class="nav-cart border">
+    <i class="fa-solid fa-cart-shopping"></i>
+        cart
+</div>
+</div>
+<!-- creating panel 2nd bar -->
+
+<div class="panel">
+
+<!-- 1st div -->
+
+<div id="menuall">
+        <i class="fa-solid fa-bars"></i>
+        <a href="#">All</a>
+</div>
+<!-- 2nd div -->
+
+<div id="deals">
+    <a href="#">Today's Deals</a> 
+    <a href="#">Customer Service</a>
+    <a href="#">Registry</a>
+    <a href="#">Gift Cards</a>
+    <a href="#">Sell</a>
+</div>
+
+<div id="blank">
+    Shops deals in electronics
+</div>
+</div>
+
+</header>
+
+
+
+
+
+<main>
+<section>
+<!-- creating hero-section background image and msg-->
+<div class="hero-section">
+<div id="hero-msg">
+<p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="#"> Click here to go to amazon.in</a></p>
+</div>
+</div>
+</section>
+ <!-- creating shop section  -->
+<section>
+<div class="shop-section">
+<!-- boxes -->
+<div class="box">
+  <div class="box-content"> 
+  <h2>Deals in PCs</h2> 
+    <div id="box1image"></div>
+  <p><a href="#">Shop now</a></p>
+</div> 
+</div>
+
+<div class="box">
+    <div class="box-content"> 
+        <h2>Toys under $25</h2> 
+          <div id="box2image"></div>
+        <p><a href="#">Shop now</a></p>
+      </div> 
+</div>
+
+<div class="box">
+    <div class="box-content"> 
+        <h2>Home décor under $50</h2> 
+          <div id="box3image"></div>
+        <p><a href="#">Shop now</a></p>
+      </div> 
+</div>
+
+<div class="box">
+    <div class="box-content"> 
+        <h2>Laptops for every need</h2> 
+          <div id="box5image"></div>
+        <p><a href="#">Find your laptop here</a></p>
+      </div> 
+</div>
+
+<div class="box">
+    <div class="box-content"> 
+    <h2>Player's paradise here</h2> 
+      <div id="box4image"></div>
+    <p><a href="#">Shop video games</a></p>
+  </div> 
+  </div>
+  
+  <div class="box">
+      <div class="box-content"> 
+          <h2>Personal Care under $25</h2> 
+            <div id="box6image"></div>
+          <p><a href="#">See more</a></p>
+        </div> 
+  </div>
+  
+  <div class="box">
+      <div class="box-content"> 
+          <h2>Shop activity trackers</h2> 
+            <div id="box7image"></div>
+          <p><a href="#">Shop now</a></p>
+        </div> 
+  </div>
+  
+  <div class="box">
+      <div class="box-content"> 
+          <h2>Business solutions</h2> 
+            <div id="box8image"></div>
+          <p><a href="#">See more software products</a></p>
+        </div> 
+  </div>
+  
+</div>
+</section>
+</main>
+
+<footer>
+    <!-- creating panel -->
+
+    <!-- PANEL1 -->
+<div class="foot-panel1">
+  <a href="#" > Back to top</a>
+</div>
+
+<!-- PANEL2 -->
+<div class="foot-panel2">
+ <ul>
+   <p>Get to Know Us</p> 
+   <a href="#">Careers</a>
+   <a href="#">Blog</a>
+   <a href="#">About Amazon</a>
+   <a href="#">Investor Relations</a>
+   <a href="#">Amazon Devices</a>
+   <a href="#"> Amazon Science</a>
+</ul>
+
+
+<ul>
+    <p>Make Money with Us</p> 
+    <a href="#">products on Amazon</a>
+    <a href="#">Sell on Amazon Business</a>
+    <a href="#">Sell apps on Amazon</a>
+    <a href="#">Become an Affiliate</a>
+    <a href="#">Advertise Your Products</a>
+    <a href="#">Self-Publish with Us</a>
+    <a href="#"> Host an Amazon Hub</a>
+    <a href="#">›See More Make Money with Us</a>
+ </ul>
+
+
+ <ul>
+    <p>Amazon Payment Products</p>
+    <a href="#">Amazon Business Card</a>
+    <a href="#">Shop with Points</a>
+    <a href="#">Reload Your Balance</a>
+    <a href="#">Amazon Currency Converter </a>
+ </ul>
+
+ <ul>
+    <p>Let Us Help You</p> 
+    <a href="#">Amazon and COVID-19</a>
+    <a href="#">Your Account</a>
+   <a href="#">Your Orders</a>
+    <a href="#">Shipping Rates & Policies</a>
+    <a href="#">Returns & Replacements</a>
+   <a href="#"> Manage Your Content and Devices</a>
+   <a href="#">Amazon Assistant</a>
+   <a href="#">Help</a>
+ </ul>
+</div>
+<hr>
+<!-- PANEL3 -->
+
+<div class="foot-panel3">
+
+    <div class="footlogo">
+    </div>
+
+<div class="languagechoose">
+
+  
+<select name="English" id="english">
+<option value="lang1">English-EN</option>
+<option value="lang2">español-ES</option>
+<option value="lang3">العربية - AR</option>
+<option value="lang4">Deutsch - DE</option>
+<option value="lang5">한국어 - KO</option>
+<option value="lang6">português - PT</option>
+<option value="lang7">中文 (简体) - ZH</option>
+<option value="lang8">中文 (繁體) - ZH</option>
+   </select>
+
+</div>
+
+<div id="usd">
+    <i class="fa-solid fa-dollar-sign"></i>
+ <p>  USD-U.S Dollar</p> 
+</div>
+
+<div class="us">
+    <img src="engg.png" class="langpic"height="15px" >
+    <p>United States</p>
+</div>
+
+</div>
+
+<div class="foot-panel4">
+
+    <div id="pages">
+      <a href="#">Conditions of Use</a> 
+      <a href="#">Privacy Notice</a> 
+      <a href="#">Consumer Health Data Privacy Disclosure</a> 
+      <a href="#">Your Ads Privacy Choices</a> 
+    </div>
+    <div class="customer">
+      <p> © 1996-2024, Amazon.com, Inc. or its affiliates </p> 
+    </div>
+</div>
+</footer>
+</body>
+</html>
